@@ -578,7 +578,7 @@ if st.session_state.calculation_done and st.session_state.edited_data is not Non
                     ["", "• 所有汇总数据使用SUMIF公式自动计算"],
                     ["", ""],
                     ["2. 数据可编辑", ""],
-                    ["", "• 可直接修改"详细计算"表中的活动数据或排放因子"],
+                    ["", "• 可直接修改 详细计算 表中的活动数据或排放因子"],
                     ["", "• 修改后所有排放量会自动重新计算"],
                     ["", "• 汇总表和分析表会自动更新"],
                     ["", ""],
@@ -948,4 +948,5 @@ if st.session_state.calculation_done and st.session_state.edited_data is not Non
                 rtf = recommendation_box.text_frame
                 
                 if main_scope == "范围二":
+
                     rec_text = "💡 优先建议：企业范围二排放占主导，建议优先采购绿色电力证书（GEC）或签订可再生能源采购协议（VPPA），可快速实现20-30%的减排目标。"
